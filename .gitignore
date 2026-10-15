@@ -1,0 +1,20 @@
+node_modules/
+dist/
+.vite-cache/
+.env
+.env.*
+!.env.example
+.env*.local
+/.app-meta.json
+/.aether-app-builder.json
+/AGENTS.md
+/THEMING.md
+/ms.config.json
+*.log
+.browser-errors.log
+.browser-errors.seq
+
+# The monorepo root .gitignore has a broad `lib/` rule that also matches this
+# template's `src/lib/`. Re-include it so source files aren't silently dropped.
+!src/lib/
+!src/lib/**
