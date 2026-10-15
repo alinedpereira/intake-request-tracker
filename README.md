@@ -10,6 +10,7 @@ through a Power Platform data-source binding.
 - A Power Platform environment with the app's required SharePoint data-source
   binding and lists
 - A SharePoint site and document library for request files
+- Intake requests and Intake tasks lists created in Sharepoint: csv files uploaded with schema
 
 ## Local configuration
 
